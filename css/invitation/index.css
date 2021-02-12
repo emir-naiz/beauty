@@ -1,0 +1,86 @@
+.invitation {
+    padding-top: 100px;
+}
+
+.invitation__row {
+    margin: -15px;
+}
+
+.invitation__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F13C6E;
+    margin: 15px;
+    padding: 35px 45px 35px 40px;
+    overflow: hidden;
+}
+
+.invitation__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.invitation__description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 25px 0;
+}
+
+.invitation__description--samller {
+    max-width: 141px;
+}
+
+.invitation__email input {
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    padding: 10px 26px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.invitation__link {
+    display: block;
+    text-align: center;
+    padding: 8px 28px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+
+.invitation__item:hover svg {
+    animation: car 1s forwards;
+}
+
+@keyframes car {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-300%);
+    }
+    50% {
+        transform: translateX(200%);
+    }
+    75% {
+        transform: translateX(-300%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        
+    }
+}

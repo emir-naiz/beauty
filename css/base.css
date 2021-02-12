@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    color: #333333;
+    overflow-x: hidden;
+
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-5 {
+    width: 32.22%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.88%;
+}
+main {
+    background: #E5E5E5;
+}

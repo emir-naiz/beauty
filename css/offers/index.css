@@ -1,0 +1,38 @@
+.offers__row {
+    margin: -15px;
+}
+
+.offers__item {
+    padding: 25px 30px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 15px;
+}
+
+.offers__description {
+    margin: 20px 0 0 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.offers__price {
+    margin: 20px 0;
+    display: block;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+.offers__buy {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background:#F13C6E;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}

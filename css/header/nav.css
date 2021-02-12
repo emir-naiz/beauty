@@ -1,0 +1,41 @@
+.nav-top {
+    padding: 16px 0;
+}
+
+.nav-top::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 99vw;
+    background-color: #E5E5E5;
+    z-index: -1;
+
+}
+
+.nav-top__list,
+.nav-bottom__list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav-top__item,
+.nav-bottom__item {
+    margin-right: 30px;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav-bottom {
+    padding: 30px 0;
+}

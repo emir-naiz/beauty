@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+    .search {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-top,
+    .nav-bottom,
+    .phone__number,
+    .phone__btn {
+        display: none;
+    }
+
+    .header::before {
+        display: none;
+    }
+
+    .logo_img {
+        max-width: 60px;
+    }
+
+    .logo__text {
+        font-size: 26px;
+    }
+    
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+    .footer .footer__row {
+        flex-wrap: wrap;
+    }
+    
+    .footer .footer__row .col-3 {
+        width: 47%;
+    }
+
+    .footer .btn-place {
+        width: 100%;
+        text-align: right;
+        margin: 4px 38px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer .footer__row .col-3 {
+        width: 47%;
+    }    
+
+    .social {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom__row span {
+        margin-bottom: 20px;
+    }
+}
