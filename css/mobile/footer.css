@@ -7,10 +7,12 @@
         width: 47%;
     }
 
-    .footer .btn-place {
+    .footer .phone {
+        margin-top: 20px;
         width: 100%;
-        text-align: right;
-        margin: 4px 38px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
